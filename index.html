@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      
+      <!--Let browser know website is optimized for mobile-->
+      <meta data-brackets-id='571' name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    
+    <script data-brackets-id='573' src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+    <script data-brackets-id='575' type="text/javascript" src="sandbox.js"></script>
+        
+    </head>
+    
+    <body>
+        <div class="container">
+        <div>
+            <p id="classList"> Your classmates are: </p>
+            <form>
+                <p> How many groups would you like?</p>
+                <input type="tex" id="groupNumber"></input>
+                <button class="btn" id="submit">Enter</button>
+            </form>
+            <p id="groupNumberNeeded">You need this many teams: </p>
+        </div>
+        
+        
+        <p id="team-captain">Team Captain is:</p>
+
+        <button class="btn" id="pickCaptain">click to pick a captain</button>
+        
+        <p id="teamLeft">Here is the rest of the team: </p>
+        
+        <h4>Please select <span id="picksAmount"></span> cards</h4>
+        
+        <div class="row">
+        <div class="col s4" id="pickNameCard">
+            <div class="card">
+            <div class="card-content">
+                <div class="activator">
+                <i class="large material-icons" id="icon">ac_unit</i>
+                </div>
+            </div>
+            <div class="card-reveal">
+                <span class="span.card-title"><h2>Name</h2></span>
+            </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
